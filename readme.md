@@ -4,7 +4,7 @@
 
 This is a fun, simple, and easy to use **fully automatic** living style guide generator that uses your real live source code to generate a style guide.
 
-[Official website: https://snowman.io](https://snowman.io)
+Official website: [https://snowman.io](https://snowman.io)
 
 ## Use Case
 
@@ -158,9 +158,9 @@ More to come later. It should theoretically work with any flavour of CSS, althou
 
 ## Contributing
 
-I'll happily accept feedback, comments, and of course pull requests. Please use the Github issue tracker for reporting bugs and send any feedback to (snowman@yourweb.expert)[mailto:snowman@yourweb.expert]
+I'll happily accept feedback, comments, and of course pull requests. Please use the Github issue tracker for reporting bugs and send any feedback to [snowman@yourweb.expert](mailto:snowman@yourweb.expert)
 
 ## Author
 
-Made with &hearts; by [Darryl Snow](https://yourweb.expert).
+Made with &hearts; by [Darryl Snow](https://yourweb.expert).<br>
 [@dazsnow](https://www.twitter.com/dazsnow)
