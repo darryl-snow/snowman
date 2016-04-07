@@ -1,0 +1,40 @@
+{
+  "author": "Darryl Snow",
+  "name": "snowman",
+  "title": "Snowman",
+  "version": "1.0.0",
+  "description": "A fully versatile, customisable, and effortless living style guide generator for web designers and front-end developers",
+  "keywords": [
+    "style",
+    "guide",
+    "design",
+    "pattern",
+    "css",
+    "less",
+    "sass",
+    "stylus",
+    "html",
+    "jade",
+    "haml",
+    "gulp",
+    "grunt",
+    "webpack"
+  ],
+  "homepage": "https://snowman.io",
+  "license": "MIT",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darryl-snow/snowman.git"
+  },
+  "devDependencies": {
+    "karma": "^0.13.22",
+    "karma-jasmine": "^0.3.8",
+    "karma-phantomjs-launcher": "^1.0.0"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "",
+    "test": "karma start"
+  }
+}
