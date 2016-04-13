@@ -1,3 +1,6 @@
+// Snowman configuration
+// Generated on Wed Apr 13 2016 16:49:12 GMT+0800 (CST)
+
 module.exports = function(config) {
 
   config.set({
@@ -7,7 +10,9 @@ module.exports = function(config) {
      * the style guide will be generated. Glob format is ok, or you can list
      * specific individual files.
      */
-    css: ['./src/css/**/*.css'],
+    css: [
+      './src/css/**',
+      './src/lib/css/**'],
 
     /**
      * Configuration options for the style guide itself.
@@ -24,17 +29,10 @@ module.exports = function(config) {
      * 							 	to be able to demonstrate components in isolation)
      */
     styleguide: {
-      src: '/',
-      dest: '/dist/styleguide',
-      compiledHTML: false,
+      src: '/css/styleguide',
+      dest: '/public/styles',
       singlePage: true
-    },
-
-    /**
-     * The template engine to be used for the markup. Can be blank or can otherwise
-     * be "jade" or "haml".
-     */
-    templateEngine: ""
+    }
 
   });
 
