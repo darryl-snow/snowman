@@ -11,8 +11,8 @@ module.exports = function(config) {
      * specific individual files.
      */
     css: [
-      './src/css/**',
-      './src/lib/css/**'],
+      './src/css/**/*.css',
+      './src/lib/css/**/*.css'],
 
     /**
      * Configuration options for the style guide itself.
